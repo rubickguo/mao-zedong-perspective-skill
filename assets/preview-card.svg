@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="mao-zedong-perspective preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1b19"/>
+      <stop offset="100%" stop-color="#7d1f14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="24" fill="none" stroke="#e7c18a" stroke-width="2"/>
+  <text x="76" y="128" fill="#f7e7c6" font-family="Georgia, 'Times New Roman', serif" font-size="28">Codex Perspective Skill</text>
+  <text x="76" y="230" fill="#fff4df" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700">mao-zedong-perspective</text>
+  <text x="76" y="302" fill="#f1d8b2" font-family="Arial, Helvetica, sans-serif" font-size="28">A historically grounded skill for contradiction analysis,</text>
+  <text x="76" y="342" fill="#f1d8b2" font-family="Arial, Helvetica, sans-serif" font-size="28">organization, strategic leverage, and long-struggle reasoning.</text>
+  <text x="76" y="430" fill="#ffd9b0" font-family="Arial, Helvetica, sans-serif" font-size="24">Includes:</text>
+  <text x="102" y="470" fill="#fff4df" font-family="Arial, Helvetica, sans-serif" font-size="24">• Runnable SKILL.md</text>
+  <text x="102" y="505" fill="#fff4df" font-family="Arial, Helvetica, sans-serif" font-size="24">• 6 research dimensions</text>
+  <text x="102" y="540" fill="#fff4df" font-family="Arial, Helvetica, sans-serif" font-size="24">• Bilingual documentation</text>
+  <text x="76" y="585" fill="#e7c18a" font-family="Arial, Helvetica, sans-serif" font-size="20">rubickguo / open source release</text>
+</svg>
