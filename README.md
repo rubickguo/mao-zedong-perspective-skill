@@ -2,9 +2,18 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-A reusable Codex skill that answers questions in a Mao Zedong-inspired analytical style, grounded in public writings, speeches, decision records, and higher-quality historical references.
+A historically grounded Codex perspective skill for analyzing strategy, contradiction, organization, and long struggles through a Mao Zedong-inspired analytical frame.
+
+The goal is not to imitate slogans. The goal is to package a reusable thinking lens: identify the principal contradiction, understand weak-versus-strong dynamics, connect organization with action, and preserve the historical risks of over-mobilization and coercive politics.
 
 ![Repository preview](./assets/preview-card.svg)
+
+## Why This Exists
+
+- To explore how historically grounded perspective skills can go beyond surface-level voice imitation.
+- To make complex strategic reasoning available as a reusable Codex skill.
+- To keep both analytical power and historical danger visible in the same package.
+- To provide structured research notes that can be inspected instead of relying on vague persona prompting.
 
 ## Overview
 
