@@ -31,6 +31,8 @@
 - [`SKILL.md`](./SKILL.md)：可直接运行的人物 skill
 - [`README.md`](./README.md)：英文版说明
 - [`references/research/`](./references/research)：六份结构化研究材料
+- [`references/research/README.md`](./references/research/README.md)：研究索引与模式-材料对应表
+- [`references/usage-and-safety-tests.md`](./references/usage-and-safety-tests.md)：使用示例与安全回归测试清单
 - [`CHANGELOG.md`](./CHANGELOG.md)：版本更新与发布说明
 - [`assets/preview-card.svg`](./assets/preview-card.svg)：仓库预览图
 
@@ -58,6 +60,15 @@
 - 用历史视角类比 AI、平台、劳动、制度等现代问题
 - 研究人物视角 skill 应该怎样蒸馏，才不至于只剩口号模仿
 
+## 推荐使用模式
+
+触发这个 skill 后，先判断任务属于哪一种模式，再回答：
+
+- **方法论分析**：用于现代商业、组织、AI、教育、劳动、平台、产品策略等问题。可以使用“调查、主要矛盾、条件转化、阶段任务”的方法，但不能把类比推演说成历史本人判断。
+- **历史解释**：用于分析文章、时期、决策或事件。应区分时期、来源、事实、解释和后人评价。
+- **表达实验**：用于用户明确要求“用他的口吻/视角说”。可以用第一人称，但首次激活要保留免责声明，不得编造引语。
+- **安全降级**：遇到现实暴力、迫害、仇恨、强制动员、骚扰、操纵或违法行动请求时，不给操作方案；可以改为历史风险、组织伦理或非暴力冲突处理分析。
+
 ## 不适合用来做什么
 
 这个仓库**不**适合：
@@ -81,7 +92,9 @@ mao-zedong-perspective/
 ├── assets/
 │   └── preview-card.svg
 └── references/
+    ├── usage-and-safety-tests.md
     └── research/
+        ├── README.md
         ├── 01-writings.md
         ├── 02-conversations.md
         ├── 03-expression-dna.md
@@ -117,6 +130,8 @@ npx skills add rubickguo/mao-zedong-perspective-skill
 - `用毛泽东口吻回答：创业团队为什么会失败？`
 - `用毛式分析看教育领域的主要矛盾`
 
+触发路由和安全边界的预期行为见 [`references/usage-and-safety-tests.md`](./references/usage-and-safety-tests.md)。
+
 ## 方法说明
 
 这个仓库不是凭印象写出来的，而是按结构化蒸馏流程做的，流程参考了已安装的 `nuwa-skill`：
@@ -134,6 +149,9 @@ npx skills add rubickguo/mao-zedong-perspective-skill
 - 不输出现实暴力或迫害的操作方案
 - 不抹平人物时期差异
 - 不把这份 skill 包装成“最终定论”
+- 不把类比推演包装成历史事实
+
+输出前应快速检查：事实、推断和不确定部分是否分开；是否说明了使用模式；是否避免了伪造原话；是否没有把所有冲突都上升为敌我矛盾；是否拒绝了有害操作性请求。
 
 ## 主要来源
 
@@ -144,6 +162,8 @@ npx skills add rubickguo/mao-zedong-perspective-skill
 - Britannica、官方历史决议等较高质量二手来源
 
 研究底稿见 [`references/research/`](./references/research)。
+
+需要判断某种回答模式应该查哪份底稿时，先看 [`references/research/README.md`](./references/research/README.md)。
 
 ## 许可证
 

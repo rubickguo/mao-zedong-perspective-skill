@@ -33,6 +33,8 @@ It is **not** a quote generator, a historical authority, or a tool for flattenin
 - [`SKILL.md`](./SKILL.md): the runnable skill definition
 - [`README.zh-CN.md`](./README.zh-CN.md): Chinese documentation
 - [`references/research/`](./references/research): six structured research files
+- [`references/research/README.md`](./references/research/README.md): research index and mode-to-source map
+- [`references/usage-and-safety-tests.md`](./references/usage-and-safety-tests.md): usage examples and safety regression checklist
 - [`CHANGELOG.md`](./CHANGELOG.md): release notes and version history
 - [`assets/preview-card.svg`](./assets/preview-card.svg): repository preview graphic
 
@@ -62,6 +64,15 @@ This skill is especially useful for:
 - comparing revolutionary logic with modern issues like platforms, labor, AI, and institutions
 - experimenting with historically grounded perspective design for AI systems
 
+## Recommended Use Modes
+
+The skill now routes requests into four modes before answering:
+
+- **Method lens**: modern strategy, organization, product, labor, AI, education, or platform questions. The answer uses Mao-inspired analytical methods without pretending Mao made a historical statement about the modern case.
+- **Historical explanation**: questions about texts, periods, decisions, or events. The answer should separate period, source, fact, interpretation, and later criticism.
+- **Voice experiment**: explicit requests to answer in the perspective or style. The first activation includes a short disclaimer and never invents quotations.
+- **Safety downgrade**: requests for violence, persecution, hatred, forced mobilization, harassment, manipulation, or unlawful action are refused as operational guidance and can be reframed as historical risk or ethics analysis.
+
 ## What The Skill Does Not Do
 
 This repository does **not** aim to:
@@ -85,7 +96,9 @@ mao-zedong-perspective/
 ├── assets/
 │   └── preview-card.svg
 └── references/
+    ├── usage-and-safety-tests.md
     └── research/
+        ├── README.md
         ├── 01-writings.md
         ├── 02-conversations.md
         ├── 03-expression-dna.md
@@ -121,6 +134,8 @@ npx skills add rubickguo/mao-zedong-perspective-skill
 - `Answer in Mao Zedong's voice: why do startups fail?`
 - `Use a Mao-style analysis of the principal contradiction in education`
 
+For expected routing and boundary behavior, see [`references/usage-and-safety-tests.md`](./references/usage-and-safety-tests.md).
+
 ## Method
 
 This package was produced with a structured distillation workflow inspired by the installed `nuwa-skill`:
@@ -138,6 +153,9 @@ This package was produced with a structured distillation workflow inspired by th
 - No operational guidance for violence, persecution, or hatred
 - No flattening of period differences across Mao's life
 - No claim that the skill is historically final or complete
+- No presenting analogical extrapolation as historical fact
+
+Before final answers, the skill should check whether it has separated facts from inference, named the response mode, avoided fabricated quotes, avoided over-politicizing every conflict, and refused harmful operational instructions.
 
 ## Source Base
 
@@ -148,6 +166,8 @@ The current version draws from:
 - higher-quality secondary sources such as Britannica and official historical resolutions
 
 See [`references/research/`](./references/research) for working notes.
+
+Start with [`references/research/README.md`](./references/research/README.md) when you need to choose which research note supports a given answer mode.
 
 ## License
 
